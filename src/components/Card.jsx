@@ -1,4 +1,3 @@
-import "../index.css";
 import PropTypes from "prop-types";
 
 const Card = ({ foodName, time = "25 min", image, alt }) => {

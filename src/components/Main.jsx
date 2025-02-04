@@ -3,6 +3,8 @@ import stew from "../images/stew.jpg";
 import noodles from "../images/noodles.jpg";
 import tofu from "../images/curry.jpg";
 import Hesder from "./Hesder";
+import { Link } from "react-router-dom";
+// import '../src/index.css';
 
 const Main = () => {
   return (
@@ -10,12 +12,12 @@ const Main = () => {
       <main className="px-16 py-6 bg-gray-100 min-h-screen">
         {/* Navbar */}
         <div className="flex justify-end space-x-4">
-          <a href="#" className="btn text-red-500 hover:underline hover:text-red-600 ">
+          <Link  className="btn text-red-500 hover:underline hover:text-red-600 " to="/Login">
             Login
-          </a>
-          <a href="#" className="btn text-red-500 hover:underline hover:text-red-600">
+          </Link>
+          <Link  className="btn text-red-500 hover:underline hover:text-red-600" to="/signup">
             Sign up
-          </a>
+          </Link>
         </div>
 
         {/* Header */}

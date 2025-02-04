@@ -1,4 +1,6 @@
-import '../index.css'
+// import 'src/insex.css';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-md">
@@ -27,15 +29,15 @@ const Navbar = () => {
 
         <ul className="hidden md:flex space-x-8">
           <li>
-            <a href="#" className="text-gray-700 font-bold hover:text-red-500">
+            <Link to={"/"} href="#" className="text-gray-700 font-bold hover:text-red-500">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="text-gray-700 hover:text-red-500">About</a>
+            <Link to={"/About"}  className="text-gray-700 hover:text-red-500">About</Link>
           </li>
           <li>
-            <a href="#" className="text-gray-700 hover:text-red-500">Contact</a>
+            <Link to={"/contant"} className="text-gray-700 hover:text-red-500">Contact</Link>
           </li>
         </ul>
       </div>
