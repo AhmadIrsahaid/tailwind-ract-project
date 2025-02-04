@@ -18,8 +18,25 @@ Food Ninja is a modern and responsive recipe website built using **Tailwind CSS*
 
 ## 📸 Screenshot
 
-![Food Ninja Screenshot]![image](https://github.com/user-attachments/assets/099f8e58-0e1e-499f-b4da-50f5521f90ad)
+![Food Ninja]![image](https://github.com/user-attachments/assets/099f8e58-0e1e-499f-b4da-50f5521f90ad)
 
 
 ## 📂 Folder Structure
+/food-ninja │── /public │── /src │ ├── /components │ ├── /pages │ ├── App.jsx │── index.html │── package.json │── tailwind.config.js │── vite.config.js │── README.md
 
+
+## 🏗️ Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/food-ninja.git
+   cd food-ninja
+2. Install dependencies:
+   ```sh
+   npm install
+3. Run the development server:
+   ```sh
+   npm run dev
+📜 License
+This project is licensed under the MIT License.
+   
