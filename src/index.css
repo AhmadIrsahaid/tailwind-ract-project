@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.nunito {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.card{
+  @apply bg-white rounded overflow-hidden shadow-md relative;
+  
+}
+
+.badge{
+  @apply bg-[#E2E2D5] text-[#888883] text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2
+}
+
+.btn{
+  @apply border-red-500 md:border-2 px-3 py-1 rounded;
+}
+
+
+.load-btn{
+  @apply bg-gray-300 text-gray-700 px-6 py-3 rounded-full hover:bg-gray-400 transition hover:shadow-inner border-2 border-gray-700 cursor-pointer;
+}
