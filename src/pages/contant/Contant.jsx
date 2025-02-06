@@ -1,11 +1,14 @@
-import Navbar from '../../components/navbar';
-
+import Navbar from '../../components/Navbar';
+import '../../index.css';
 const Contant = () => {
   return (
     <div>
       <Navbar/>
-      <h1 className='nunito text-center'>
+      <div className='nunito text-center mt-8'>
+        <h1 className='text-gray-700 text-4xl font-semibold'>
       Contant page</h1>
+      </div>
+      
     </div>
   );
 }

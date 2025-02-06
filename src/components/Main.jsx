@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div className="font-nunito">
+    <div className="nunito">
       <main className="px-16 py-6 bg-gray-100 min-h-screen">
         {/* Navbar */}
         <div className="flex justify-end space-x-4">
