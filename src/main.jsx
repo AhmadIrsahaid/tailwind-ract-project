@@ -7,6 +7,7 @@ import Login from "./pages/login/login.jsx";
 import SignUp from "./pages/signUp/SignUp.jsx";
 import About from "./pages/About/About.jsx";
 import Contant from "./pages/contant/Contant.jsx";
+import Welcom from "./components/Welcom.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/signup" element={<SignUp/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/contant" element={<Contant/>} />
+        <Route path="/welcom" element={<Welcom/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
