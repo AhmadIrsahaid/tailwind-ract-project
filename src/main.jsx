@@ -8,6 +8,7 @@ import SignUp from "./pages/signUp/SignUp.jsx";
 import About from "./pages/About/About.jsx";
 import Contant from "./pages/contant/Contant.jsx";
 import Welcom from "./components/Welcom.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/About" element={<About/>} />
         <Route path="/contant" element={<Contant/>} />
         <Route path="/welcom" element={<Welcom/>} />
+        <Route path="/dashpord" element={<Dashboard/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

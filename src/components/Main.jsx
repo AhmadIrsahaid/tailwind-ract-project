@@ -13,10 +13,10 @@ const Main = () => {
         {/* Navbar */}
         <div className="flex justify-end space-x-4">
           <Link  className="btn text-red-500 hover:underline hover:text-red-600 " to="/Login">
-            Login
+            Sign Up
           </Link>
           <Link  className="btn text-red-500 hover:underline hover:text-red-600" to="/signup">
-            Sign up
+            Login
           </Link>
         </div>
 
